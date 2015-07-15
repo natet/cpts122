@@ -64,6 +64,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="courseinfo.cpp" />
+    <ClCompile Include="courseinfomain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="courseinfo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
